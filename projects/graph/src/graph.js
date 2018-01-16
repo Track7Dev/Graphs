@@ -3,6 +3,10 @@
  */
 export class Edge {
 	// !!! IMPLEMENT ME
+	constructor(destination, weight = 1){
+		this.destination = destination;
+		this.weight = weight;
+	}
 }
 
 /**
@@ -10,6 +14,10 @@ export class Edge {
  */
 export class Vertex {
 	// !!! IMPLEMENT ME
+	constructor(vertex = 'vertex'){
+		this.vertex = vertex;
+		this.edges = [];
+	}
 }
 
 /**
