@@ -2,10 +2,16 @@ import React, { Component } from 'react';
 import { Graph } from './graph';
 import './App.css';
 
-// !!! IMPLEMENT ME
-// const canvasWidth = 
-// const canvasHeight = 
+// Define the size of the random graph
+const xCount = 5;
+const yCount = 5;
+const boxSize = 150;
+const probability = 0.6;
 
+// Figure out the canvas size
+const canvasWidth = boxSize * xCount;
+const canvasHeight = boxSize * yCount;
+const radius = boxSize / 8;
 /**
  * GraphView
  */
